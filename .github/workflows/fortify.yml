@@ -67,7 +67,7 @@ jobs:
           DO_SETUP: true                                 # Setup FoD application, release & static scan configuration
           # SETUP_ACTION: <URL or file>                    # Customize setup action
                                                            # Pass extra options to setup action:
-          SETUP_EXTRA_OPTS: --aviator --app-owner ddcarvalhori
+          SETUP_EXTRA_OPTS: --app-owner ddcarvalhori
           # PACKAGE_EXTRA_OPTS: -oss -bt mvn               # Extra 'scancentral package' options
           # FOD_SAST_SCAN_EXTRA_OPTS:                      # Extra 'fcli fod sast-scan start' options
           DO_WAIT: true                                  # Wait for successful scan completion (implied if post-scan actions enabled)
